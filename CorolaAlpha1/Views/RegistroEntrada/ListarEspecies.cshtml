@@ -1,0 +1,9 @@
+﻿@model IEnumerable<CorolaAlpha1.Models.especies>
+<select class="form-control" id="id_especies" name="id_especies">
+    @foreach (var item in Model)
+    {
+        <option value="@item.id">@item.nombre</option>
+
+    }
+</select>
+

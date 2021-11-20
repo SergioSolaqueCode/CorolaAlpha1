@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorolaAlpha1", "CorolaAlpha1\CorolaAlpha1.csproj", "{10798F31-0D66-4C9D-8FB3-3C1200B3FEF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10798F31-0D66-4C9D-8FB3-3C1200B3FEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10798F31-0D66-4C9D-8FB3-3C1200B3FEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10798F31-0D66-4C9D-8FB3-3C1200B3FEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10798F31-0D66-4C9D-8FB3-3C1200B3FEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {650E684F-A517-4286-835D-38EA8F7695D7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<CorolaAlpha1.Models.registroentrada>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombreespecie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombreencargado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cantidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechatrabajada)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_especies)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id_usuario)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombreespecie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombreencargado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cantidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechatrabajada)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_especies)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_usuario)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
